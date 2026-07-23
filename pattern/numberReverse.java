@@ -1,14 +1,15 @@
 package pattern;
+
 import java.util.*;
-public class numberRettanglePattern{
+
+public class numberReverse{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
 
-        int n=4;
-        int m=3;
+        int n=5;
 
-        for(int i=0;i<m;i++){
-            for(int j=1;j<=n;j++){
+        for(int i=1;i<=n;i++){
+            for(int j=n;j>=i;j--){
                 System.out.print(j+" ");
             }
             System.out.println();
